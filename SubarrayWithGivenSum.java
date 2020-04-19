@@ -25,7 +25,7 @@ public class SubarrayWithGivenSum
         }
 
         int sum=0;
-        for(int i=0;i<=size && sum!=num;i++)
+        for(int i=0;i<size && sum!=num;i++)
         {
             sum=0;
             for(int j=i;j<size;j++)
